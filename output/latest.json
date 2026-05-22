@@ -1,0 +1,754 @@
+{
+  "crawled_at": "2026-05-22T20:22:23Z",
+  "days": 7,
+  "source": "cisa_kev",
+  "count": 10,
+  "records": [
+    {
+      "id": "d3e58d168a250a10c214760b4e23868d",
+      "source": "cisa_kev",
+      "source_id": "CVE-2025-34291",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Langflow Origin Validation Error Vulnerability",
+      "summary": null,
+      "content_raw": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints.",
+      "language": "en",
+      "published_at": "2026-05-21T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-06-04T00:00:00Z",
+      "severity": {
+        "label": "high",
+        "cvss_score": 8.8,
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Langflow",
+          "product": "Langflow",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2025-34291"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [
+          {
+            "id": "CWE-346",
+            "name": ""
+          }
+        ],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://github.com/langflow-ai/langflow"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.9.3"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://github.com/langflow-ai/langflow/issues/11465#event-25774545848"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34291"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    },
+    {
+      "id": "b7138b43c3eeea01321df932d12a335b",
+      "source": "cisa_kev",
+      "source_id": "CVE-2026-34926",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
+      "summary": null,
+      "content_raw": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
+      "language": "en",
+      "published_at": "2026-05-21T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-06-04T00:00:00Z",
+      "severity": {
+        "label": "medium",
+        "cvss_score": 6.7,
+        "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:L/A:L",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Trend Micro",
+          "product": "Apex One",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2026-34926"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [
+          {
+            "id": "CWE-23",
+            "name": ""
+          }
+        ],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://success.trendmicro.com/en-US/solution/KA-0023430"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34926"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    },
+    {
+      "id": "7bbdd29811118882237ef1f1a1a015c2",
+      "source": "cisa_kev",
+      "source_id": "CVE-2008-4250",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Microsoft Windows Buffer Overflow Vulnerability",
+      "summary": null,
+      "content_raw": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
+      "language": "en",
+      "published_at": "2026-05-20T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-06-03T00:00:00Z",
+      "severity": {
+        "label": "critical",
+        "cvss_score": 9.8,
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Microsoft",
+          "product": "Windows",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2008-4250"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [
+          {
+            "id": "CWE-94",
+            "name": ""
+          }
+        ],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4250"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    },
+    {
+      "id": "2d7f8b45c61abc6855c7e3f7d9859869",
+      "source": "cisa_kev",
+      "source_id": "CVE-2009-1537",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
+      "summary": null,
+      "content_raw": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
+      "language": "en",
+      "published_at": "2026-05-20T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-06-03T00:00:00Z",
+      "severity": {
+        "label": "high",
+        "cvss_score": 8.8,
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Microsoft",
+          "product": "DirectX",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2009-1537"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2009/ms09-028"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-1537"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    },
+    {
+      "id": "e2b1fd0906ef36d09fe08df57babb47b",
+      "source": "cisa_kev",
+      "source_id": "CVE-2009-3459",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
+      "summary": null,
+      "content_raw": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
+      "language": "en",
+      "published_at": "2026-05-20T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-06-03T00:00:00Z",
+      "severity": {
+        "label": "high",
+        "cvss_score": 8.8,
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Adobe",
+          "product": "Acrobat and Reader",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2009-3459"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [
+          {
+            "id": "CWE-119",
+            "name": ""
+          }
+        ],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://www.cisa.gov/news-events/alerts/2009/10/13/adobe-reader-and-acrobat-vulnerabilities"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://web.archive.org/web/20120324170253/http://www.adobe.com/support/security/bulletins/apsb09-15.html#:~:text=CVE%2D2009%2D3459).-,NOTE%3A,-There%20are%20reports"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-3459"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    },
+    {
+      "id": "fceb7cda202b222237664818400fdb5e",
+      "source": "cisa_kev",
+      "source_id": "CVE-2010-0249",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "summary": null,
+      "content_raw": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "language": "en",
+      "published_at": "2026-05-20T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-06-03T00:00:00Z",
+      "severity": {
+        "label": "high",
+        "cvss_score": 8.8,
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Microsoft",
+          "product": "Internet Explorer",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2010-0249"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [
+          {
+            "id": "CWE-416",
+            "name": ""
+          }
+        ],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://learn.microsoft.com/en-us/security-updates/SecurityAdvisories/2010/979352"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0249"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    },
+    {
+      "id": "954257af47c248d02dff51e11a7f1fb6",
+      "source": "cisa_kev",
+      "source_id": "CVE-2010-0806",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "summary": null,
+      "content_raw": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "language": "en",
+      "published_at": "2026-05-20T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-06-03T00:00:00Z",
+      "severity": {
+        "label": "high",
+        "cvss_score": 8.8,
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Microsoft",
+          "product": "Internet Explorer",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2010-0806"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [
+          {
+            "id": "CWE-399",
+            "name": ""
+          }
+        ],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://learn.microsoft.com/en-us/security-updates/securityadvisories/2010/981374"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0806"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    },
+    {
+      "id": "73664578cded2fe27059069940c0db5c",
+      "source": "cisa_kev",
+      "source_id": "CVE-2026-41091",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Microsoft Defender Link Following Vulnerability",
+      "summary": null,
+      "content_raw": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "language": "en",
+      "published_at": "2026-05-20T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-06-03T00:00:00Z",
+      "severity": {
+        "label": "high",
+        "cvss_score": 7.8,
+        "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Microsoft",
+          "product": "Defender",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2026-41091"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [
+          {
+            "id": "CWE-59",
+            "name": ""
+          }
+        ],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-41091"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    },
+    {
+      "id": "fe6e97215c21b53b5822854106f1c152",
+      "source": "cisa_kev",
+      "source_id": "CVE-2026-45498",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Microsoft Defender Denial of Service Vulnerability",
+      "summary": null,
+      "content_raw": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
+      "language": "en",
+      "published_at": "2026-05-20T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-06-03T00:00:00Z",
+      "severity": {
+        "label": "medium",
+        "cvss_score": 4.0,
+        "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Microsoft",
+          "product": "Defender",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2026-45498"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-45498"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    },
+    {
+      "id": "b1a8e38de4c2f846cb0d0593f318d9fe",
+      "source": "cisa_kev",
+      "source_id": "CVE-2026-42897",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "title": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+      "summary": null,
+      "content_raw": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
+      "language": "en",
+      "published_at": "2026-05-15T00:00:00Z",
+      "updated_at": null,
+      "due_date": "2026-05-29T00:00:00Z",
+      "severity": {
+        "label": "high",
+        "cvss_score": 8.1,
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+        "epss_score": null
+      },
+      "affected": [
+        {
+          "vendor": "Microsoft",
+          "product": "Microsoft",
+          "ecosystem": null,
+          "versions_affected": "",
+          "versions_fixed": null
+        }
+      ],
+      "identifiers": {
+        "cve_ids": [
+          "CVE-2026-42897"
+        ],
+        "ghsa_id": null,
+        "kev_listed": true,
+        "ransomware_known": false
+      },
+      "tags": {
+        "categories": [
+          "vulnerability"
+        ],
+        "cwe": [
+          {
+            "id": "CWE-79",
+            "name": ""
+          }
+        ],
+        "attack_vectors": [],
+        "tech_stack": [],
+        "topics": []
+      },
+      "action": {
+        "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "remediation": null,
+        "references": [
+          {
+            "label": "CISA Notes",
+            "url": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42897"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-emergency-mitigation-service"
+          },
+          {
+            "label": "CISA Notes",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897"
+          }
+        ]
+      },
+      "audience": {
+        "scores": {
+          "general": 0.0,
+          "developer": 0.0,
+          "security": 0.0
+        },
+        "primary": "security",
+        "confidence": 0.0,
+        "recommended_for": []
+      }
+    }
+  ]
+}
