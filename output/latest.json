@@ -1,6 +1,7 @@
 {
-  "crawled_at": "2026-05-22T20:22:23Z",
-  "days": 7,
+  "crawled_at": "2026-05-22T20:59:44Z",
+  "query_from": "2026-05-15",
+  "query_to": "2026-05-21",
   "source": "cisa_kev",
   "count": 10,
   "records": [
